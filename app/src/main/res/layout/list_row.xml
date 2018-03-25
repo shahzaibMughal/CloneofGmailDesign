@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_background"
+    android:paddingLeft="?listPreferredItemPaddingLeft"
+    android:paddingRight="?listPreferredItemPaddingRight"
+    android:paddingTop="@dimen/list_row_padding"
+    android:paddingBottom="@dimen/list_row_padding"
+    android:paddingEnd="?listPreferredItemPaddingRight"
+    android:paddingStart="?listPreferredItemPaddingLeft"
+    android:clickable="true"
+    android:focusable="true">
+
+
+    <RelativeLayout
+        android:id="@+id/iconContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <RelativeLayout
+            android:id="@+id/backIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fillAfter="false"
+            android:fillEnabled="false">
+
+            <ImageView
+                android:layout_width="@dimen/icon_width_height"
+                android:layout_height="@dimen/icon_width_height"
+                android:src="@drawable/circle" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_done" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frontIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/frontIconImage"
+                android:layout_width="@dimen/icon_width_height"
+                android:layout_height="@dimen/icon_width_height"
+                android:src="@drawable/profile_image"/>
+
+            <TextView
+                android:id="@+id/frontIconText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/front_icon_image_text_size" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/messageContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="@dimen/message_container_margin_right"
+        android:layout_marginLeft="@dimen/message_container_margin_left"
+        android:focusable="true"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/messagefrom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:textColor="@color/message_from_color_unread"
+            android:textSize="@dimen/message_from_textSize"
+            android:textStyle="bold"
+            android:text="From"/>
+
+        <TextView
+            android:id="@+id/messageSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textColor="@color/message_subject_color_unread"
+            android:textSize="@dimen/message_textSize"
+            android:textStyle="bold"
+            android:text="subject"/>
+
+        <TextView
+            android:id="@+id/messageBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textColor="@color/message_body"
+            android:textSize="@dimen/message_textSize"
+            android:text="message body"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/messageTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/message_time_color"
+        android:textSize="@dimen/message_time_textsize"
+        android:textStyle="bold"
+        android:text="10:00am"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <ImageView
+        android:id="@+id/starIcon"
+        android:layout_width="@dimen/start_icon_width_height"
+        android:layout_height="@dimen/start_icon_width_height"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/messageContainer"
+        android:tint="@color/icon_tint_normal"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_star_empty"/>
+
+
+
+
+
+</RelativeLayout>

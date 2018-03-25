@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_allInboxes"
+            android:icon="@drawable/nav_all_inboxs"
+            android:title="All inboxes" />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_primary"
+            android:icon="@drawable/nav_primary"
+            android:title="Primary" />
+
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/nav_social"
+            android:title="Social" />
+
+        <item
+            android:id="@+id/nav_promotions"
+            android:icon="@drawable/nav_promotions"
+            android:title="Promotions" />
+
+        <item
+            android:id="@+id/nav_updates"
+            android:icon="@drawable/nav_updates"
+            android:title="Updates" />
+
+        <item
+            android:id="@+id/nav_forums"
+            android:icon="@drawable/nav_forums"
+            android:title="Forums" />
+
+    </group>
+
+
+    <item
+        android:id="@+id/group3Title"
+        android:title="All labels">
+
+        <group
+            android:id="@+id/group3"
+            android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_starred"
+                android:icon="@drawable/nav_starred"
+                android:title="Starred" />
+
+            <item
+                android:id="@+id/nav_important"
+                android:icon="@drawable/nav_important"
+                android:title="Important" />
+
+            <item
+                android:id="@+id/nav_sent"
+                android:icon="@drawable/nav_sent"
+                android:title="Sent" />
+
+            <item
+                android:id="@+id/nav_outbox"
+                android:icon="@drawable/nav_outbox"
+                android:title="Outbox" />
+
+            <item
+                android:id="@+id/nav_drafts"
+                android:icon="@drawable/nav_drafts"
+                android:title="Drafts" />
+
+            <item
+                android:id="@+id/nav_all_mail"
+                android:icon="@drawable/nav_all_email"
+                android:title="All mail" />
+
+            <item
+                android:id="@+id/nav_spam"
+                android:icon="@drawable/nav_spam"
+                android:title="Spam" />
+
+            <item
+                android:id="@+id/nav_trash"
+                android:icon="@drawable/nav_trash"
+                android:title="Trash" />
+
+            <item
+                android:id="@+id/nav_notes"
+                android:icon="@drawable/nav_notes"
+                android:title="Notes" />
+
+        </group>
+
+    </item>
+
+
+    <group
+        android:id="@+id/group4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/nav_settings"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_help_and_feedback"
+            android:icon="@drawable/nav_help"
+            android:title="Help &amp; feedback" />
+
+    </group>
+
+</menu>

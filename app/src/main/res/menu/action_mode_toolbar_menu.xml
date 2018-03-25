@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="Achieve"
+        android:icon="@drawable/ic_archive"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/ic_delete"
+        android:title="Delete"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="always"/>
+
+    <item android:title="Mark Read/unRead"
+    android:icon="@drawable/ic_mail"
+    app:showAsAction="always"/>
+
+    <item android:title="Move to"
+        app:showAsAction="never"/>
+
+    <item android:title="Change labels"
+        app:showAsAction="never"/>
+
+    <item android:title="Add star"
+        app:showAsAction="never"/>
+
+    <item android:title="Mark important"
+        app:showAsAction="never"/>
+
+    <item android:title="Mute"
+        app:showAsAction="never"/>
+
+    <item android:title="Report spam"
+        app:showAsAction="never"/>
+
+
+
+</menu>

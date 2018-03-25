@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d94336</color>
+    <color name="colorPrimaryDark">#b83221</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_list_row_activated">#e0e0e0</color>
+    <color name="color_circle">#666666</color>
+    <color name="message_time_color">#4285f4</color>
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="message_from_color_unread">#000000</color>
+    <color name="message_from_color_read">#111111</color>
+    <color name="message_subject_color_unread">#111111</color>
+    <color name="message_subject_color_read">#7a7a7a</color>
+    <color name="message_body">#7a7a7a</color>
+    <color name="searchHintColor_searchToolbar">#727272</color>
+    <color name="searchTextColor_searchToolbar">#212121</color>
+    <color name="action_mode_toolbar_background">#757575</color>
+</resources>
